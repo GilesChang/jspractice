@@ -1,0 +1,104 @@
+.backGround{
+	height: 600px;
+	width: 430px;
+	position: absolute;
+	cursor: hide;
+	top: 10px;
+	left: 100px;
+	border-width: 3px;
+	border-style:solid;
+	border-color:#661122;
+	background-color: #BBBBFF;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-user-select: none;
+	background-image: url('wood.jpg');
+}
+.cubeArea{
+	height: 525px;
+	width: 275px;
+	position: absolute;
+	top: 55px;
+	left: 15px;
+	border-width: 2px;
+	border-style:solid;
+	border-color:#661122;
+	background-color: #BBFFFF;
+	background-image: url('cubeArea.jpg');
+}
+.nextArea{
+	height: 85px;
+	width: 110px;
+	position: absolute;
+	top: 55px;
+	left: 305px;
+	border-width: 2px;
+	border-style:solid;
+	border-color:#661122;
+	background-color: #BBFFFF;
+	background-image: url('cubeArea.jpg');
+}
+.pauseCubeArea{
+	height: 525px;
+	width: 275px;
+	position: absolute;
+	top: 55px;
+	left: 15px;
+	border-width: 2px;
+	border-style:solid;
+	border-color:#661122;
+	background-color: #FFFFFF;
+	opacity: 0;
+	background-image: url('white.jpg');
+}
+.pauseNextArea{
+	height: 85px;
+	width: 110px;
+	position: absolute;
+	top: 55px;
+	left: 305px;
+	border-width: 2px;
+	border-style:solid;
+	border-color:#661122;
+	background-color: #FFFFFF;
+	opacity: 0;
+	background-image: url('pausenext.jpg');
+}
+.cubeCombine{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+}
+.cube{
+	height: 25px;
+	width: 25px;
+	position: absolute;
+	border-color:#888888;
+	background-color: #FFBBBB;
+}
+.cubeLine{
+	height: 25px;
+	width: 275px;
+	position: absolute;
+}
+.scoreWord{
+	position: absolute;
+	top: 5px;
+	left: 15px;
+	margin-top: 0px;
+	font-family: "Verdana", Arial, Sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	color: #000000;
+}
+.scoreLine{
+	position: absolute;
+	top: 5px;
+	left: 200px;
+	margin-top: 0px;
+	font-family: "Verdana", Arial, Sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	color: #000000;
+}

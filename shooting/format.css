@@ -1,0 +1,126 @@
+.backGround{
+	height: 300px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	position: absolute;
+	cursor: crosshair;
+	top: 50px;
+	left: 50px;
+	background-color: #BBBBFF;
+	background-image: url('grass.jpg');
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-user-select: none;
+}
+.targetHead{
+	height: 5px;
+	width: 5px;
+	position: absolute;
+	left: 1px;
+	top: 0px;
+	border-radius: 100%;
+	background-color: #005555;
+	background-image: url('head.png');
+}
+.targetBody{
+	height: 10px;
+	width: 7px;
+	position: absolute;
+	left: 0px;
+	top: 4px;
+	border-top-left-radius: 100%;
+	border-top-right-radius: 100%;
+	background-color: #005555;
+	background-image: url('body.png');
+}
+.target{
+	height: 14px;
+	width: 7px;
+	position: absolute;
+}
+.headHit{
+	height: 5px;
+	width: 5px;
+	position: absolute;
+	left: 1px;
+	top: 0px;
+	border-radius: 100%;
+	background-color: #FF0000;
+}
+.bodyHit{
+	height: 10px;
+	width: 7px;
+	position: absolute;
+	left: 0px;
+	top: 4px;
+	border-top-left-radius: 100%;
+	border-top-right-radius: 100%;
+	background-color: #FF0000;
+}
+.hitTarget{
+	height: 14px;
+	width: 7px;
+	position: absolute;
+}
+.comboWord{
+	position: absolute;
+	left: 200px;
+	top: 2px;
+	margin-top: 0px;
+}
+.comboWordBack{
+	position: absolute;
+	margin-top: 0px;
+	font-family: "Verdana", Arial, Sans-serif;
+	font-weight: bolder;
+	font-size: 25px;
+	color: #FF0000;
+}
+.comboWordFront{
+	position: absolute;
+	left: 5px;
+	margin-top: 0px;
+	font-family: "Verdana", Arial, Sans-serif;
+	font-weight: normal;
+	font-size: 25px;
+	color: #FFFF00;
+}
+.scoreWord{
+	position: absolute;
+	top: 5px;
+	left: 15px;
+	margin-top: 0px;
+	font-family: "Verdana", Arial, Sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	color: #0000FF;
+}
+.lifeWord{
+	position: absolute;
+	top: 280px;
+	left: 350px;
+	margin-top: 0px;
+	font-family: "Verdana", Arial, Sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.headShot{
+	position: absolute;
+	margin-top: 0px;
+	font-family: "Verdana", Arial, Sans-serif;
+	font-weight: normal;
+	font-size: 8px;
+	color: #FF0000;
+}
+.scoreBoard{
+	position: absolute;
+	left: -1000px;
+	margin-top: 0px;
+	font-family: "Verdana", Arial, Sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: #FF0000;
+}
